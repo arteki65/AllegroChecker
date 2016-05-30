@@ -1,0 +1,8 @@
+.list-cell:visited {
+    -fx-background-color: #0093ff;
+    -fx-text-fill: white;
+}
+
+.myCellStyleClass {
+    -fx-background-color: green;
+}

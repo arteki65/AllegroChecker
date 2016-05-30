@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="profileEditPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.aptewicz.allegrochecker.gui.controller.ProfileEditController">
+   <children>
+      <SplitPane dividerPositions="0.7491638795986622" layoutX="73.0" layoutY="113.0" orientation="VERTICAL" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="329.0" prefWidth="798.0">
+               <children>
+                  <ChoiceBox fx:id="mainCategoriesChoiceBox" layoutX="14.0" layoutY="35.0" prefWidth="150.0" />
+                  <Button fx:id="testButton" layoutX="707.0" layoutY="384.0" mnemonicParsing="false" text="Test" />
+                  <Button fx:id="saveButton" layoutX="614.0" layoutY="384.0" mnemonicParsing="false" text="Save" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="159.0" prefWidth="798.0">
+               <children>
+                  <ListView fx:id="offersListView" layoutX="145.0" layoutY="-20.0" prefHeight="146.0" prefWidth="798.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

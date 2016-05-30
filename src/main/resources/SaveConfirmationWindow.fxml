@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.aptewicz.allegrochecker.gui.controller.SaveConfirmationWindowController">
+   <children>
+      <TextField fx:id="profileNameTextField" layoutX="115.0" layoutY="64.0" />
+      <Button layoutX="170.0" layoutY="217.0" mnemonicParsing="false" onAction="#handleSaveButton" text="Save" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="114.0" layoutY="27.0" prefHeight="25.0" prefWidth="171.0" text="Insert profile name" textAlignment="CENTER" />
+      <TextField fx:id="profileDescriptionTextField" layoutX="115.0" layoutY="146.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="113.0" layoutY="118.0" prefHeight="15.0" prefWidth="171.0" text="Insert profile description" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
